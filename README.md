@@ -1,6 +1,7 @@
-# BluePsyduck's Github Workflows
+![Factorio Item Browser](https://raw.githubusercontent.com/factorio-item-browser/documentation/master/asset/image/logo.png)
+# Github Workflows
 
-This repository contains the Github workflows, reused across my projects.
+This repository contains the Github workflows, reused across the projects of the Factorio Item Browser.
 
 ## CI PHP General
 
