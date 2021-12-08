@@ -13,7 +13,7 @@ The following variables can be used with the workflow:
 | Variable    | Default | Description                                        |
 |-------------|---------|----------------------------------------------------|
 | extensions  | ""      | The comma-separated list of extensions to install. |
-| php-version | "8.0"   | The PHP version to use for the checks.             |
+| php-version | "8.1"   | The PHP version to use for the checks.             |
 
 Note hat the PHP version is expected as a string (not as a number) to be consistent with the other workflow.
 
@@ -25,7 +25,7 @@ and execute them in separate jobs. It also supports checking coverage for one of
 | Variable            | Default     | Description                                                                   |
 |---------------------|-------------|-------------------------------------------------------------------------------|
 | extensions          | ""          | The comma-separated list of extensions to install.                            |
-| php-versions        | "8.1 8.0"   | The PHP versions to execute the tests in specified as space-separated string. |
+| php-versions        | "8.1"       | The PHP versions to execute the tests in specified as space-separated string. |
 | min-php-version     | "all"       | The minimal PHP version to use when using the default versions.               |
 | suite-with-coverage | "unit-test" | The PHPUnit test suite which should be checked for coverage.                  |
 

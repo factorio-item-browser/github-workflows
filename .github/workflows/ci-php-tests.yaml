@@ -11,7 +11,7 @@ on:
       php-versions:
         type: string
         description: The space sparated list of PHP versions to use for the tests.
-        default: "8.1 8.0"
+        default: "8.1"
         required: false
       min-php-version:
         type: string
@@ -41,7 +41,7 @@ jobs:
       - name: Setup PHP
         uses: shivammathur/setup-php@v2
         with:
-          php-version: "8.0"
+          php-version: "8.1"
           coverage: none
           extensions: ${{ inputs.extensions }}
 
