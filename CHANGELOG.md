@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.2 - 2022-01-01
+
+### Changed
+
+- Now ignoring the platform requirements when building the matrix for the PHPUnit tests.
+
 ## 1.0.1 - 2021-12-08
 
 ### Changed
