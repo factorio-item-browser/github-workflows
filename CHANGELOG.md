@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.3 - 2022-01-02
+
+### Changed
+
+- Coverage reports now gets uploaded to Codecov even when a previous step failed.
+
 ## 1.0.2 - 2022-01-01
 
 ### Changed
